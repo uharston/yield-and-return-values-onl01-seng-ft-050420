@@ -1,5 +1,5 @@
 require 'pry'
-
+#while loop w/ yield is what happen under an each or collect block
 def hello(array)
   i = 0
   collection = []
@@ -8,6 +8,7 @@ def hello(array)
     binding.pry
     i += 1
   end
+  collection
 end
 
 
